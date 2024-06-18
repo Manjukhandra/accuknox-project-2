@@ -1,0 +1,26 @@
+==========================
+System Health Report
+Date: Tue Jun 18 11:40:36 UTC 2024
+CPU usage: 13%
+Memory usage: 13.10%
+Disk usage: 39%
+Top CPU-consuming processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        3117  0.4  1.2 1800552 48076 ?       Ssl  11:23   0:04 /usr/bin/containerd
+root        3353  0.3  2.0 2125856 80980 ?       Ssl  11:23   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root           1  0.0  0.3  22688 13624 ?        Ss   09:14   0:05 /sbin/init
+root         647  0.0  0.8 1991344 32124 ?       Ssl  09:14   0:03 /usr/lib/snapd/snapd
+ubuntu      5668  0.0  0.1   9192  5248 pts/0    Ss   11:39   0:00 -bash
+==========================
+System Health Report
+Date: Tue Jun 18 11:43:56 UTC 2024
+CPU usage: 4.5%
+Memory usage: 13.10%
+Disk usage: 39%
+Top CPU-consuming processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        3117  0.4  1.2 1800552 48076 ?       Ssl  11:23   0:05 /usr/bin/containerd
+root        3353  0.3  2.0 2125856 80980 ?       Ssl  11:23   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root           1  0.0  0.3  22688 13624 ?        Ss   09:14   0:05 /sbin/init
+root         647  0.0  0.8 1991344 32124 ?       Ssl  09:14   0:03 /usr/lib/snapd/snapd
+ubuntu      5667  0.0  0.1  15256  7720 ?        S    11:39   0:00 sshd: ubuntu@pts/0
